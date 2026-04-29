@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+
+# Calibration files (machine-specific, regenerated per session)
+config/ARbot.cal
+config/ARbot_safe.cal
+config/cam_calibration.json
+config/ar4_saved_positions.json
+config/scan_results.json
+config/ar4_positions.py
+
+# YOLO model (too large for git)
+model/*.pt
+
+# Logs
+*.log
+AR4.log
+ARbot2.cal

@@ -1,0 +1,5 @@
+pyserial>=3.5
+numpy>=1.24
+opencv-python>=4.8
+ultralytics>=8.0
+pyrealsense2>=2.54
