@@ -50,8 +50,8 @@ Update COM ports in each script's configuration section if yours differ.
 
 ```
 1. Power on robot, place arm in seated position
-2. python scripts/newcal.py                          # Calibrate joints
-3. python scripts/move_teach.py                      # Verify positions
+2. python scripts/newcal.py #ONLY RUN FOR FIRST CALIBRATION # Calibrate joints
+3. python scripts/move_teach.py                      # Verify positions, teach new positions etc. 
    > goto over_tray                                  # Check key positions
    > goto center_tray
    > q
@@ -109,7 +109,7 @@ python scripts/servo_test.py
 
 Commands: `o` (open), `c` (close), `0-180` (specific angle), `q` (quit)
 
-#### `scripts/fix_j2_limit.py` — Adjust joint limits
+#### `scripts/fix_j2_limit.py` — Adjust joint limits can work for any joint not just j2
 
 Quick script to modify joint limits in the calibration file without re-running full calibration.
 
@@ -172,7 +172,7 @@ python scripts/fix_j2_limit.py
          └─────────┘ └─────────┘ └─────────┘
 ```
 
-## Gripper values
+## Gripper values subject to change please try to make sure your servo is not different
 
 | Object | Grip angle | Open angle |
 |--------|-----------|------------|
