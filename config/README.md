@@ -1,4 +1,3 @@
-Place these files here (generated during setup, not tracked by git):
 
 - ARbot.cal        — Base calibration file (from AR4 GUI or newcal.py)
 - ARbot_safe.cal    — Safe calibration with tested limits (from newcal.py)
