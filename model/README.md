@@ -1,3 +1,1 @@
-Place your trained YOLO model here:
-
-- PROTO1.pt — YOLOv8 model trained on scissors, syringes, tweezers
+YOLO model 3 classes 18k images
